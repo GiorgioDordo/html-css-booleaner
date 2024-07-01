@@ -20,6 +20,20 @@ body {
     top: 28px;
 }
 
+#data {
+    margin-top: -25px;
+    margin-bottom: 20px;
+    color: rgb(87, 85, 85);
+}
+
+#booleaner {
+    color: blue;
+}
+
+#date {
+    font-size: 13px;
+}
+
 .container {
     max-width: 1400px;
     margin: auto;
@@ -31,6 +45,10 @@ body {
     display: inline-block;
 }
 
+.image-description {
+    font-size: 13px;
+}
+
 ul {
     padding-left: 15px;
 }
@@ -40,13 +58,19 @@ table {
 }
 
 th, td {
-    padding-right: 20px;
+    padding-right: 25px;
 }
 
 .title {
+    color: white;
     background-color: rgb(33,169,229);
 }
 
 .blu {
     background-color: rgb(177,229,242);
+}
+
+h2 {
+    font-size: 18px;
+    color:  rgb(87, 85, 85);
 }
